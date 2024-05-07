@@ -1,0 +1,15 @@
+* Always use '\n' rather using 'endl', because for each statement till escape character endl prints the output on the console screen then it moves to next line of output.
+* When the input is in size of 10^6 or 10^7 it is good to have fast io. i.e.,
+ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0); This will make it faster.
+* To make all the int to long long we can #define int long long and 
+* Array will goes to a function by reference only, so where every you change a value of an array it gets reflected everywhere
+* Use the dot operator (.) when you have a reference or an object.
+* Use the arrow operator (->) when you have a pointer or an iterator (which behaves like a pointer).
+*
+*
+*
+*
+*
+*
+*
+*
